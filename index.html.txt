@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Online Shopping Website</title>
+<style> body{
+font-family:Arial; margin:0; background:#f2f2f2;
+}
+header{ background:#222; color:white; padding:15px; text-align:center;
+}
+nav{ background:#444; padding:10px; text-align:center;
+}
+nav a{ color:white; margin:15px;
+text-decoration:none; font-size:18px;
+}
+.banner{
+text-align:center; padding:40px; background:#ddd;
+}
+.products{ display:flex;
+justify-content:center; flex-wrap:wrap;
+}
+.product{ background:white; width:220px; margin:20px; padding:15px;
+ 
+
+border-radius:10px;
+box-shadow:0 0 10px gray; text-align:center;
+}
+.product img{ width:150px; height:150px;
+}
+button{ background:green; color:white; border:none; padding:10px; margin-top:10px; cursor:pointer;
+}
+footer{ background:#222; color:white;
+text-align:center; padding:15px; margin-top:30px;
+}
+</style>
+</head>
+<body>
+<header>
+<h1>Online Shopping Website</h1>
+<p>Best place to buy products online</p>
+</header>
+<nav>
+<a href="#">Home</a>
+<a href="#">Products</a>
+<a href="#">Cart</a>
+<a href="#">Login</a>
+<a href="#">Contact</a>
+</nav>
+<div class="banner">
+<h2>Welcome to Our Store</h2>
+<p>Get best deals on clothes, shoes and electronics</p>
+ 
+
+ 
+</div>
+<section class="products">
+<div class="product">
+<h3>T-Shirt</h3>
+<img src="tshirt.jpg">
+<p>Price: ₹500</p>
+<button>Add to Cart</button>
+</div>
+<div class="product">
+<img src="shoes.jpg">
+<h3>Shoes</h3>
+<p>Price: ₹1200</p>
+<button>Add to Cart</button>
+</div>
+<div class="product">
+<img src="watch.jpg">
+<h3>Watch</h3>
+<p>Price: ₹2000</p>
+<button>Add to Cart</button>
+</div>
+<div class="product">
+<img src="bag.jpg">
+<h3>Bag</h3>
+<p>Price: ₹800</p>
+<button>Add to Cart</button>
+</div>
+</section>
+<footer>
+<p>© 2026 Online Shopping Website | All Rights Reserved</p>
+</footer>
+</body>
+</html>
+ 
